@@ -1,0 +1,7 @@
+run py.test -v or python -m  pytest to execute the tests 
+pytest -k multiply :- will run only the tests which has "multiply in it"
+
+To add windows only test:
+    use decorator - @pytest.mark.windows/mac for windows only tests
+    run command - pytest -m mac/not mac/windows/ not windows -v
+
