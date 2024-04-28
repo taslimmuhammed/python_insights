@@ -7,3 +7,4 @@ print(d["tom"])
 del d["rob"]
 for key in d:
     print(key,d[key])
+d.clear()
